@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/feedicon" android:title="Feed" android:icon="@drawable/ic_rss_feed_black_24dp"  />
+    <item android:id="@+id/playlisticon" android:title="Playlist" android:icon="@drawable/ic_queue_music_black_24dp" />
+    <item android:id="@+id/browseicon" android:title="Browse" android:icon="@drawable/ic_whatshot_black_24dp" />
+    <item android:id="@+id/searchicon" android:title="Search" android:icon="@drawable/ic_search_black_24dp"/>
+    <item android:id="@+id/my_libraryicon" android:title="My Library" android:icon="@drawable/ic_person_black_24dp" />
+
+
+
+
+</menu>

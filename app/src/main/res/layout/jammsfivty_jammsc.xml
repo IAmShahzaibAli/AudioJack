@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/background"
+    >
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_below="@+id/JammsTablayout_id"
+        android:id="@+id/fivtyJToolbar_id"
+        >
+
+
+
+        <Button
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:background="@drawable/ic_view_headline_black_24dp"
+            android:layout_gravity="right"
+            android:id="@+id/fivtyJViewlistButton_id"
+            />
+
+
+
+
+    </android.support.v7.widget.Toolbar>
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="50sp"
+        android:layout_height="wrap_content"
+        android:text="50 Jamms"
+        android:layout_below="@id/fivtyJToolbar_id"
+        />
+</RelativeLayout>

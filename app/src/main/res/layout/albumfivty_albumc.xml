@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+android:background="@color/background"
+    >
+
+    <TextView
+        android:layout_marginTop="250sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:layout_marginLeft="27sp"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:id="@+id/createnewaccount_id"
+        android:text="Top 50 Albums Fragment"
+        />
+
+
+</RelativeLayout>
